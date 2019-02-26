@@ -18,5 +18,19 @@ void mul(int a,int b)
 x=a*b;
 cout<<x;
 }
+void div(int a,int b)
+{
+x=a/b;
+cout<<x;
+}
+};
+int main()
+{
+cal c1;
+c1.add(5,6);
+c1.sub(8,4);
+c1.div(10,5);
+c1.mul(5,2);
+}
 
 
