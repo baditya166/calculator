@@ -1,20 +1,22 @@
 #include<iostream>
 using namespace std;
-void main()
+class cal
 {
-int a,b;
-char op;
-cout<<"enter the number";
-cin>>a;
-cin>>b;
-cout<<"enter the operator";
-cin>>op;
-switch (op)
-    {
-        case '+':
-            cout << num1+num2;
-            break;
-	    
-	    case '-':
-            cout << num1-num2;
-            break;
+int x;
+void add(int a,int b)
+{
+x=a+b;
+cout<<x;
+}
+void sub(int a,int b)
+{
+x=a-b;
+cout<<x;
+}
+void mul(int a,int b)
+{
+x=a*b;
+cout<<x;
+}
+
+
